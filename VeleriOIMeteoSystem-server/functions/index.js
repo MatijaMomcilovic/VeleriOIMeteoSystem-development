@@ -38,7 +38,7 @@ app.get('/getmeteostation', (request, response) => {
 });
 
 app.get('/hello', (request, response) => {
-  return response.send('Hello world from index.js!');
+  return response.send('Hello world from index.js!!');
 });
 
 app.post('/addmeteostation', (request, response) => {
